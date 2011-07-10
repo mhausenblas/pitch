@@ -25,10 +25,19 @@ If you don't specify the access credentials (as above), pitch will ask you for i
 	
 ## Targets
 
-* S3
-* Google Storage
-* FTP
+* Amazon Simple Storage Service [S3](http://aws.amazon.com/s3/)
+* Google Storage [GS](http://code.google.com/apis/storage/)
+* FTP [RFC959](http://tools.ietf.org/html/rfc959)
+* Web-based Distributed Authoring and Versioning [WebDAV](http://www.webdav.org/)
 * _what else do we need?_
+
+## Design
+
+The pitch CLI will be coded in Python with the following modules and libs:
+
+* [boto](http://code.google.com/p/boto/)
+* [ftplib](http://docs.python.org/library/ftplib.html)
+* [pywebdav](http://code.google.com/p/pywebdav/)
 
 ## Team
 
